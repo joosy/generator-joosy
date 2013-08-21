@@ -1,4 +1,4 @@
-# generator-joosy [![Build Status](https://secure.travis-ci.org/inossidabile/generator-joosy.png?branch=master)](https://travis-ci.org/inossidabile/generator-joosy)
+# generator-joosy [![Build Status](https://secure.travis-ci.org/joosy/generator-joosy.png?branch=master)](https://travis-ci.org/joosy/generator-joosy)
 
 A generator for [Yeoman](http://yeoman.io).
 
