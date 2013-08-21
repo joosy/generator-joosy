@@ -14,7 +14,7 @@ module.exports = class BaseGenerator extends Generator
 
     @on 'end', => @installDependencies(skipInstall: options['skip-install'])
 
-  askFor: ->
+  configure: ->
     cb = @async()
     
     console.log @banner()
@@ -39,6 +39,6 @@ module.exports = class BaseGenerator extends Generator
       
       cb()
 
-  app: ->
+  generateFiles: ->
     @directory "environment", @subdir
     @directory "application", Path.join(@subdir, "app/javascripts")

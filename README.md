@@ -1,47 +1,48 @@
-# generator-joosy [![Build Status](https://secure.travis-ci.org/joosy/generator-joosy.png?branch=master)](https://travis-ci.org/joosy/generator-joosy)
+# generator-joosy
 
-A generator for [Yeoman](http://yeoman.io).
+[![NPM version](https://badge.fury.io/js/generator-joosy.png)](http://badge.fury.io/js/generator-joosy)
+[![Build Status](https://secure.travis-ci.org/joosy/generator-joosy.png?branch=master)](https://travis-ci.org/joosy/generator-joosy)
 
+A generator for Node.js based standalone environment for [Joosy](http://joosy.ws) based on [Yeoman](http://yeoman.io).
 
 ## Getting Started
 
-### What is Yeoman?
+### Installation
 
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+Make sure you have Node.js (including npm) installed on your system and run
 
 ```
-$ npm install -g yo
+$ npm install -g yo generator-joosy
 ```
 
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-joosy from npm, run:
-
-```
-$ npm install -g generator-joosy
-```
-
-Finally, initiate the generator:
+Now that you have Yeoman and particular Joosy generator installed on your system you can run...
 
 ```
 $ yo joosy
 ```
 
-### Getting To Know Yeoman
+..to generate a new application. It will thoroughly guide you through the rest of setup process.
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+## Other available generators
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+### yo joosy:layout [NAME]
 
+Generates Joosy layout. `NAME` can contain slashes to automatically generate corresponding path and namespace.
+
+### yo joosy:page [NAME]
+
+Generates Joosy page. `NAME` can contain slashes to automatically generate corresponding path and namespace.
+
+### yo joosy:widget [NAME]
+
+Generates Joosy widget. `NAME` can contain slashes to automatically generate corresponding path and namespace.
+
+## Maintainers
+
+* Boris Staal, [@inossidabile](http://staal.io)
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+Copyright 2013 [Boris Staal](http://staal.io)
+
+It is free software, and may be redistributed under the terms of MIT license.

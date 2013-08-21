@@ -1,6 +1,6 @@
 {
   "name": "generator-joosy",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-RC1",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator"
@@ -25,7 +25,8 @@
     "coffee-script": "~1.6.3",
     "sugar": "~1.3.9",
     "ejs": "~0.8.4",
-    "joosy": "~1.2.0-alpha.63"
+    "joosy": "~1.2.0-alpha.63",
+    "cli-color": "~0.2.2"
   },
   "devDependencies": {
     "mocha": "~1.12.0",
