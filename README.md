@@ -1,11 +1,13 @@
 # generator-joosy
 
-![Joosy](http://f.cl.ly/items/2N2J453J2B353F1A0t0I/joocy1.1.png)
-
-A generator for Node.js standalone environment for [Joosy](http://joosy.ws) based on [Yeoman](http://yeoman.io).
+<a href="http://joosy.ws"><img src="http://f.cl.ly/items/3X0f2K1z3r1X3K162W2c/logo.png" align="right" /></a>
 
 [![NPM version](https://badge.fury.io/js/generator-joosy.png)](http://badge.fury.io/js/generator-joosy)
 [![Build Status](https://secure.travis-ci.org/joosy/generator-joosy.png?branch=master)](https://travis-ci.org/joosy/generator-joosy)
+
+The **[Joosy](http://joosy.ws) framework** standalone environment generator based on [Yeoman](http://yeoman.io).
+
+If you are seeking for information about Joosy, start with [official site](http://joosy.ws), [guides](http://guides.joosy.ws) or [central repository](https://github.com/joosy/joosy/).
 
 ## Getting Started
 
