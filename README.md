@@ -25,17 +25,17 @@ $ yo joosy
 
 ..to generate a new application. It will thoroughly guide you through the rest of setup process.
 
-## Other available generators
+### Other available generators
 
-### yo joosy:layout [NAME]
+#### yo joosy:layout [NAME]
 
 Generates Joosy layout. `NAME` can contain slashes to automatically generate corresponding path and namespace.
 
-### yo joosy:page [NAME]
+#### yo joosy:page [NAME]
 
 Generates Joosy page. `NAME` can contain slashes to automatically generate corresponding path and namespace.
 
-### yo joosy:widget [NAME]
+#### yo joosy:widget [NAME]
 
 Generates Joosy widget. `NAME` can contain slashes to automatically generate corresponding path and namespace.
 
