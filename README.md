@@ -25,7 +25,7 @@ $ yo joosy
 
 ..to generate a new application. It will thoroughly guide you through the rest of setup process.
 
-### Other available generators
+### Available in-app generators
 
 #### yo joosy:layout [NAME]
 
