@@ -1,9 +1,9 @@
-Sugar  = require 'sugar'
 Path   = require 'path'
 FS     = require 'fs'
 EJS    = require 'ejs'
 Color  = require 'cli-color'
 Yeoman = require 'yeoman-generator'
+S      = require 'string'
 
 module.exports = class Generator extends Yeoman.generators.Base
   constructor: (args, options, config) ->
@@ -26,7 +26,7 @@ module.exports = class Generator extends Yeoman.generators.Base
     result  = "\n"
     color   = Color.xterm(208)
     version = "Version #{@meta.version}"
-    version = " ".repeat(34-version.length) + color("Version #{Color.bold @meta.version}")
+    version = S(" ").repeat(34-version.length) + color("Version #{Color.bold @meta.version}")
 
     result += "#{version}\n"
     result += color "        __________________________\n"

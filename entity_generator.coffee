@@ -1,3 +1,4 @@
+S         = require 'string'
 Generator = require './generator'
 
 module.exports = class EntityGenerator extends Generator
@@ -26,8 +27,8 @@ module.exports = class EntityGenerator extends Generator
   generateFiles: ->
     return if @name.length == 0
 
-    @view = @name.split('/').last()
-    @klass = @view.camelize()
-    @namespace = @name.split('/').slice(0, -1).map('camelize').join('.') if @name.has('/')
+    @view = @name.split('/').slice(-1)[0]
+    @klass = S(@view).camelize()
+    @namespace = @name.split('/').slice(0, -1).map((x) -> S(x).camelize()).join('.') if S(@name).include('/')
 
     @directory @kind(), 'app/javascripts'
