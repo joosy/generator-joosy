@@ -8,7 +8,8 @@ module.exports = class BaseGenerator extends Generator
     @joosy        = "latest"
     @dependencies = """
                     #= require jquery/jquery.js
-                    #= require jquery-form/jquery.form.js
+                    #= require joosy
+                    #= require joosy/resources
                     #= require sugar/release/sugar.min.js
                     """
 
