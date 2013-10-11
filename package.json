@@ -1,6 +1,6 @@
 {
   "name": "generator-joosy",
-  "version": "1.0.0-RC3",
+  "version": "1.0.0-RC4",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator"
@@ -24,7 +24,7 @@
     "yeoman-generator": "~0.13.0",
     "coffee-script": "~1.6.3",
     "ejs": "~0.8.4",
-    "joosy": ">=1.2.0-beta.1",
+    "joosy": ">=1.2.0-beta.4",
     "cli-color": "~0.2.2",
     "string": "~1.5.1"
   },

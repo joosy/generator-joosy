@@ -27,8 +27,14 @@ module.exports = class EntityGenerator extends Generator
   generateFiles: ->
     return if @name.length == 0
 
-    @view = @name.split('/').slice(-1)[0]
-    @klass = S(@view).camelize()
-    @namespace = @name.split('/').slice(0, -1).map((x) -> S(x).camelize()).join('.') if S(@name).include('/')
+    @name  = S(@name).underscore().chompLeft('_')
+
+    @view  = @name.split('/').slice(-1)[0]
+    @klass = S(@view).camelize().capitalize()
+
+    if S(@name).include('/')
+      @namespace = @name.split('/').slice(0, -1).map(
+        (x) -> S(x).camelize().capitalize()
+      ).join('.')
 
     @directory @kind(), 'app/javascripts'
